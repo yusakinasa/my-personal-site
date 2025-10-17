@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "NODE_ENV=development node server.js"
+    "dev": "NODE_ENV=development node server.js",
+    "render-build": "npm rebuild sqlite3 --build-from-source"
   },
   "dependencies": {
     "cors": "^2.8.5",
